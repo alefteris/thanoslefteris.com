@@ -1,0 +1,16 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
+# TEAM
+
+   Developer / Designer: Thanos Lefteris
+   Twitter: @alefteris
+   Location: Athens, Greece
+
+# TECHNOLOGY COLOPHON
+
+   Languages / Markups: HTML, CSS, JavaScript, Python, Markdown
+   Text Editors: Sublime Text, vim
+   Other Tools: Pelican, git, SmartGit, GIMP, Inkscape
+   OS: Ubuntu
+   Web Services: Github, Disqus, Wufoo, Google Analytics
