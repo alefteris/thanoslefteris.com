@@ -11,6 +11,6 @@
 
    Languages / Markups: HTML, CSS, JavaScript, Python, Markdown
    Text Editors: Sublime Text, vim
-   Other Tools: Pelican, git, SmartGit, GIMP, Inkscape
+   Other Tools: Pelican, Git, SmartGit, GIMP, Inkscape
    OS: Ubuntu
    Web Services: Github, Disqus, Wufoo, Google Analytics

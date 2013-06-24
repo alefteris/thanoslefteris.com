@@ -9,6 +9,7 @@
       <link rel="canonical" href="http://thanoslefteris.com/about.html">
       <meta property="og:site_name" content="Thanos Lefteris">
       <meta property="og:url" content="http://thanoslefteris.com/about.html">
+      <meta property="fb:profile_id" content="100001911824442">
       <meta name="twitter:creator" content="@alefteris">
 
          <link rel="alternate" type="application/atom+xml" href="http://thanoslefteris.com/feeds/all.atom.xml" title="Thanos Lefteris Atom Feed">
@@ -23,28 +24,35 @@
 <meta property="profile:username" content="alefteris">
 <meta property="profile:gender" content="male">
 
-      <link rel="stylesheet" href="http://thanoslefteris.com/theme/css/normalize.css">
-      <link rel="stylesheet" href="http://thanoslefteris.com/theme/css/main.css">
+         <link rel="stylesheet" href="http://thanoslefteris.com/theme/css/main.min.css?c56ac00a">
+   
    </head>
 
 <body itemscope itemtype="http://schema.org/AboutPage">
 
-      <header role="banner" itemscope itemtype="http://schema.org/WPHeader">
-         <h1><a href="http://thanoslefteris.com/">Thanos Lefteris</a></h1>
+      <header class="navbar navbar-static-top" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+         <nav class="container" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a id="brand" class="navbar-brand" href="http://thanoslefteris.com/" title="Homepage" rel="home">Thanos Lefteris</a>
+            <div class="nav-collapse navbar-responsive-collapse collapse">
+               <ul class="nav navbar-nav pull-right">
+                  <li ><a href="http://thanoslefteris.com/index.html" rel="home">Home</a></li>
+                  <li ><a href="http://thanoslefteris.com/archives.html">Archives</a></li>
+                                                                  <li class="active"><a href="http://thanoslefteris.com/about.html" rel="author">About</a></li>
+                  <li ><a href="http://thanoslefteris.com/contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
       </header>
 
-      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-         <ul>
-                     <li><a href="http://thanoslefteris.com/index.html">Home</a></li>
-                     <li><a href="http://thanoslefteris.com/archives.html">Archives</a></li>
-                     <li><a href="http://thanoslefteris.com/about.html">About</a></li>
-                     <li><a href="http://thanoslefteris.com/contact.html">Contact</a></li>
-         
-                                       </ul>
-      </nav>
-
-      <main role="main">
-         <article itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <div class="main-outer">
+         <div class="container">
+            <main role="main">
+<article class="col-lg-12" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
    <h2 itemprop="headline">About</h2>
    <div class="h-card" itemscope itemtype="http://schema.org/Person">
       <img class="u-photo" style="float:left; margin-right:4px" src="http://www.gravatar.com/avatar/231c555830b49076218e46344822f4fc.png" alt="Photo of Thanos Lefteris" itemprop="image">
@@ -61,23 +69,35 @@
       </div>
    </div>
 </article>
-      </main>
+</main>
+         </div>
+      </div>
 
-      <aside role="complementary" itemscope itemtype="http://schema.org/WPSideBar">
-         <h4>Follow me</h4>
-         <ul>
-            <li><a rel="me" href="http://thanoslefteris.com/">Feed</a></li>
-            <li><a rel="me" href="https://twitter.com/alefteris">Twitter</a></li>
-            <li><a rel="me" href="https://github.com/alefteris">Github</a></li>
-            <li><a rel="me" href="https://plus.google.com/106239154277341653106?rel=author">Google+</a></li>
-            <li><a rel="me" href="https://gr.linkedin.com/in/lefteris/">LinkedIn</a></li>
-         </ul>
-               </aside>
-
-      <footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-         <p>&copy; <span itemprop="copyrightYear">2013</span> <span class="h-card" itemscope itemtype="http://schema.org/Person" itemprop="copyrightHolder"><a class="u-url p-name" href="http://thanoslefteris.com/about.html" itemprop="url"><span itemprop="name"><span class="p-given-name" itemprop="givenName">Thanos</span> <span class="p-family-name" itemprop="familyName">Lefteris</span></span></a></span></p>
+      <footer class="container" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+         <div class="footer-inner">
+            <section class="follow-me">
+               <h1>Follow me</h1>
+               <ul class="list-unstyled">
+                  <li><span class="fontello fontello-rss"></span> <a class="subscribe" rel="alternate" type="application/atom+xml" href="http://thanoslefteris.com/feeds/all.atom.xml" title="Blog Atom Feed">Feed</a></li>
+                  <li><span class="fontello fontello-twitter"></span> <a rel="me" href="https://twitter.com/alefteris">Twitter</a></li>
+                  <li><span class="fontello fontello-github-circled"></span> <a rel="me" href="https://github.com/alefteris">Github</a></li>
+                  <li><span class="fontello fontello-gplus-squared"></span> <a rel="me" href="https://plus.google.com/106239154277341653106?rel=author">Google+</a></li>
+                  <li><span class="fontello fontello-linkedin-squared"></span> <a rel="me" href="https://gr.linkedin.com/in/lefteris/">LinkedIn</a></li>
+                  <li><a href="http://thanoslefteris.com/about.html#social">elsewhere…</a></li>
+               </ul>
+            </section>
+            <div class="misc-footer">
+               <p>This site's code is open-source. Found a typo or want to fix something in the code? <a href="https://github.com/alefteris/thanoslefteris.com"><span class="fontello fontello-fork"></span> Fork it on GitHub.</a></p>
+               <p><a href="#brand">Skip to Top ↑</a></p>
+               <div class="copyright">
+                  <p><small>&copy; <span itemprop="copyrightYear">2013</span> <span class="h-card" itemscope itemtype="http://schema.org/Person" itemprop="copyrightHolder"><a class="u-url p-name" href="http://thanoslefteris.com/about.html" rel="author" itemprop="url"><span itemprop="name"><span class="p-given-name" itemprop="givenName">Thanos</span> <span class="p-family-name" itemprop="familyName">Lefteris</span></span></a></span></small></p>
+               </div>
+            </div>
+         </div>
       </footer>
 
+         <script src="http://thanoslefteris.com/theme/js/main.min.js?0840aaa1"></script>
+   
             <script>
    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
