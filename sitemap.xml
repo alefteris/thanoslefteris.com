@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://thanoslefteris.com/index.html</loc>
-<lastmod>2013-06-24T17:55:11-00:00</lastmod>
+<lastmod>2013-06-28T16:53:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
 <loc>http://thanoslefteris.com/archives.html</loc>
-<lastmod>2013-06-24T17:55:11-00:00</lastmod>
+<lastmod>2013-06-28T16:53:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
@@ -26,28 +26,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://thanoslefteris.com/category/coding.html</loc>
-<lastmod>2013-06-24T17:55:11-00:00</lastmod>
+<lastmod>2013-06-28T16:53:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
 <loc>http://thanoslefteris.com/tag/coding.html</loc>
-<lastmod>2013-06-24T17:55:11-00:00</lastmod>
+<lastmod>2013-06-28T16:53:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
 <loc>http://thanoslefteris.com/tag/tools.html</loc>
-<lastmod>2013-06-24T17:55:11-00:00</lastmod>
+<lastmod>2013-06-28T16:53:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
 <loc>http://thanoslefteris.com/tag/sublime-text.html</loc>
-<lastmod>2013-06-24T17:55:11-00:00</lastmod>
+<lastmod>2013-06-28T16:53:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
