@@ -9,8 +9,8 @@
 
 # TECHNOLOGY COLOPHON
 
-   Languages / Markups: HTML, CSS, JavaScript, Python, Markdown
-   Text Editors: Sublime Text, vim
+   Languages / Markups: HTML, CSS, JavaScript, Python, Markdown, LESS
+   Text Editors: Sublime Text, Vim
    Other Tools: Pelican, Git, SmartGit, GIMP, Inkscape
    OS: Ubuntu
-   Web Services: Github, Disqus, Wufoo, Google Analytics
+   Web Services: Github, Disqus, Wufoo, Google Analytics, SubToMe, Gravatar
