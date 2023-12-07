@@ -1,29 +1,29 @@
 {
-	"name": "thanoslefteris.com",
-	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
-			"version": "20"
-		},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
-	},
-	"portsAttributes": {
-		"4321": {
-			"label": "Astro local web server",
-			"onAutoForward": "openBrowserOnce"
-		}
-	},
-	"forwardPorts": [4321],
-	"postCreateCommand": "pipx install pre-commit",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"astro-build.astro-vscode",
-				"davidanson.vscode-markdownlint",
-				"dbaeumer.vscode-eslint",
-				"editorconfig.editorconfig",
-				"esbenp.prettier-vscode"
-			]
-		}
-	}
+  "name": "thanoslefteris.com",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "portsAttributes": {
+    "4321": {
+      "label": "Astro local web server",
+      "onAutoForward": "openBrowserOnce"
+    }
+  },
+  "forwardPorts": [4321],
+  "postCreateCommand": "pipx install pre-commit",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "davidanson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
 }
