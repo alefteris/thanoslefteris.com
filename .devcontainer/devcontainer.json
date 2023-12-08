@@ -15,6 +15,9 @@
   },
   "forwardPorts": [4321],
   "postCreateCommand": "pipx install pre-commit",
+  "remoteEnv": {
+    "ASTRO_TELEMETRY_DISABLED": "1"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
